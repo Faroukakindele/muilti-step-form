@@ -61,7 +61,7 @@ function SelectYear({ dispatch, state }) {
         dispatch({ type: "plan" });
       }}
     >
-      <p className={styles.active}> monthly</p>
+      <p className={state.planType ? styles.active : ""}> monthly</p>
       <div
         className={`${styles.toggle}  ${
           !state.planType ? styles.toggleYear : ""
@@ -69,7 +69,7 @@ function SelectYear({ dispatch, state }) {
       >
         <div></div>
       </div>
-      <p>Yearly</p>
+      <p className={!state.planType ? styles.active : ""}>Yearly</p>
     </div>
   );
 }

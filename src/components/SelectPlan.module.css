@@ -37,8 +37,8 @@
   background-color: var(--color-Alabaster);
   grid-column: 1/4;
   color: var(--color-font);
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 700;
   text-transform: capitalize;
 }
 .toggle {
@@ -63,7 +63,7 @@
   background-color: var(--color-white);
 }
 .active {
-  color: var(--color-marine-blue);
+  color: var(--color-marine-blue) !important;
 }
 .selected {
   background-color: var(--color-Alabaster);
