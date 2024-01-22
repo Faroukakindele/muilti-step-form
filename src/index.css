@@ -1,0 +1,67 @@
+@import "https://fonts.google.com/specimen/Ubuntu";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-font: rgba(128, 128, 128, 0.667);
+  --color-cool-gray: hsl(231, 11%, 63%);
+  --color-Alabaster: hsl(231, 100%, 99%);
+  --color-marine-blue: hsl(213, 96%, 18%);
+  --color-light-gray: hsl(229, 24%, 87%);
+  --color-light-blue: hsl(206, 94%, 87%);
+  --color-purplish-blue: hsl(243, 100%, 62%);
+}
+body {
+  background-color: white;
+  padding: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+@media screen and (min-width: 660px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 80%;
+  }
+}
+.section_wrapper {
+  background-color: white;
+  border-radius: 8px;
+  padding: 3rem 2rem;
+  margin: 2rem;
+  margin-top: -5rem;
+}
+.section_wrapper h1 {
+  color: var(--color-marine-blue);
+  padding: 1rem 0;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.section_wrapper h3 {
+  color: var(--color-font);
+  font-weight: 500;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+@media screen and (min-width: 660px) {
+  .section_wrapper {
+    margin: 3rem 0 0 0;
+    padding: 0;
+  }
+  .section_wrapper h1 {
+    font-size: 3rem;
+  }
+  .section_wrapperh3 {
+    font-size: 1.6rem;
+  }
+}

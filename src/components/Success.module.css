@@ -1,0 +1,9 @@
+.success {
+  text-align: center;
+  padding: 10rem 0;
+}
+.success p {
+  color: var(--color-font);
+  line-height: 1.4;
+  font-size: 1.4rem;
+}

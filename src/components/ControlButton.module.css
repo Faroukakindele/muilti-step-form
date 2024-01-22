@@ -1,0 +1,50 @@
+.container {
+  background-color: white;
+  justify-self: end;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  flex: 0 0 10%;
+}
+.container button {
+  padding: 1.2rem 2.5rem;
+}
+.next {
+  background-color: var(--color-marine-blue);
+  align-content: end;
+  color: var(--color-white);
+  opacity: 1;
+  font-weight: 600;
+  transition: all 1s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.next:disabled {
+  background-color: var(--color-marine-blue);
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.backActive,
+.next {
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.backNotActive {
+  visibility: hidden;
+}
+.backActive {
+  color: var(--color-font);
+  transition: 0.5s;
+  background-color: transparent;
+  font-weight: 700;
+}
+.backActive:hover {
+  color: var(--color-marine-blue);
+}
+.confirm {
+  background-color: var(--color-purplish-blue) !important;
+}

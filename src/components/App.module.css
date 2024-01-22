@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  height: 95vh;
+  overflow: hidden;
+  flex-direction: column;
+}
+@media screen and (min-width: 660px) {
+  .App {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 6rem;
+    margin: 4rem auto;
+    border-radius: 10px;
+    height: calc(100vh - 12rem);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .App {
+    max-width: 70rem;
+  }
+}

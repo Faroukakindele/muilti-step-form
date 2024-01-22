@@ -1,0 +1,33 @@
+.sideBar {
+  background-image: url("../assets/images/bg-sidebar-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 15rem;
+  color: var(--color-Alabaster);
+}
+
+.items {
+  display: flex;
+  margin: 5rem auto;
+  gap: 1rem;
+  justify-content: center;
+  flex-direction: row;
+}
+@media screen and (min-width: 660px) {
+  .sideBar {
+    background-image: url("../assets/images/bg-sidebar-desktop.svg");
+
+    padding: 5rem;
+    height: inherit;
+    border-radius: 10px;
+    background-position: top !important;
+    flex: 0 0 23rem;
+    font-size: 1.5rem;
+  }
+  .items {
+    flex-direction: column;
+    gap: 4rem;
+    margin: 0;
+  }
+}

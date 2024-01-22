@@ -1,0 +1,79 @@
+.FinishingUp {
+  background-color: var(--color-Alabaster);
+  padding: 2rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  margin: 3rem 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.price {
+  padding: 2rem;
+}
+.plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-marine-blue);
+
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.plan div p {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+.plan div p span {
+  padding: 0 0.2rem;
+}
+.plan button {
+  background: none;
+  outline: none;
+  border: none;
+  text-decoration: underline;
+
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  color: var(--color-font);
+  margin-top: 0.6rem;
+}
+.FinishingUp hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.addons {
+  padding: 1.4rem 0;
+  color: var(--color-font);
+}
+
+.items,
+.price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+.items p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: none;
+  color: rgba(0, 0, 0, 0.409);
+}
+.ok {
+  color: var(--color-marine-blue);
+  font-weight: 900;
+}
+.price {
+  color: var(--color-font);
+}
+.price h2 {
+  color: var(--color-purplish-blue);
+}
+.items {
+  margin: 1.4rem 0;
+}

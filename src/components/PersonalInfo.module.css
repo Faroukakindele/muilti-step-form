@@ -1,0 +1,45 @@
+.input {
+  color: var(--color-marine-blue);
+  display: grid;
+  row-gap: 6px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, minmax(10px, auto));
+  text-transform: capitalize;
+  margin: 1.5rem 0;
+  font-weight: 700;
+}
+.input input {
+  padding: 1.4rem;
+  outline: none;
+  border-radius: 8px;
+  grid-column: 1/4;
+  border: 1px solid rgba(128, 128, 128, 0.667);
+  transition: all 0.5s ease;
+  font-size: 1.3rem;
+  color: var(--color-marine-blue);
+}
+.input input:focus {
+  border: 2px solid var(--color-marine-blue);
+}
+
+@media screen and (min-width: 660px) {
+  .input {
+    margin: 3rem 0;
+    font-size: 1.4rem;
+  }
+}
+.info {
+  animation: scaler 2s ease forwards infinite;
+}
+
+@keyframes scaler {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}

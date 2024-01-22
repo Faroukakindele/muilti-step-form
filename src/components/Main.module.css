@@ -1,0 +1,14 @@
+.main {
+  flex: 1;
+  background-color: var(--color-light-gray);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+@media screen and (min-width: 660px) {
+  .main {
+    background-color: var(--color-white);
+    max-width: 50rem;
+    margin-right: 3rem;
+  }
+}
